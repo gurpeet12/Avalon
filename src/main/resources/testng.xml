@@ -4,14 +4,14 @@
    
   <test name="Com Avlon App Test Cases">
 		<classes>
-			<!--  <class name="com.avlon.testcases.LoginPageTest"></class>		 
+			<class name="com.avlon.testcases.LoginPageTest"></class>		 
 			 <class name="com.avlon.testcases.HomePageTest"></class> 	
 			<class name="com.avlon.testcases.ForumPageTest"></class>			
 		    <class name="com.avlon.testcases.CalendarPageTest"></class>
-		   <class name="com.avlon.testcases.SceneAndChannelCreationPageTest"></class> -->
-		   <class name="com.avlon.testcases.StarterStagePageTest"></class>
+		   <class name="com.avlon.testcases.SceneAndChannelCreationPageTest"></class>
+		  <class name="com.avlon.testcases.StarterStagePageTest"></class>
 		   
 		</classes>
-	</test><!-- Test -->
+	</test>
   
-</suite> <!-- Suite -->
+</suite>

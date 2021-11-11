@@ -28,7 +28,7 @@ public class StarterStagePageTest extends TestBase{
 		starterStagePage=new StarterStagePage();
 		calendarPage=new CalendarPage();
 		homePage = loginPage.login("tester102@yopmail.com","pass1234");
-		homePage.homePageLoading();
+		homePage.homePageLoading(true); 
 		homePage.goToHomeSideMenu();
 		starterStagePage=homePage.goToStarterStagePage();
 	}

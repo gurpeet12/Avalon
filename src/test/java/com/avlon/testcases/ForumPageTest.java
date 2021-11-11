@@ -24,7 +24,7 @@ public class ForumPageTest extends TestBase{
 		loginPage = new LoginPage();
 		forumPage=new ForumPage();
 		homePage = loginPage.login("mt1@avalonmeta.com","pass1234");
-		homePage.homePageLoading();
+		homePage.homePageLoading(false);
 		homePage.goToHomeSideMenu();
 		forumPage=homePage.goToForumPage();
 	}

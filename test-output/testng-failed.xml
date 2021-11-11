@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Com Avlon App Test Cases(failed)">
     <classes>
-      <class name="com.avlon.testcases.StarterStagePageTest">
+      <class name="com.avlon.testcases.SceneAndChannelCreationPageTest">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="StarterStageCreation"/>
+          <include name="setUp"/>
+          <include name="sceneAndChannelCreation"/>
         </methods>
-      </class> <!-- com.avlon.testcases.StarterStagePageTest -->
+      </class> <!-- com.avlon.testcases.SceneAndChannelCreationPageTest -->
     </classes>
   </test> <!-- Com Avlon App Test Cases(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,25 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="177577" started-at="2021-10-16T21:48:10 IST" finished-at="2021-10-16T21:51:08 IST">
+  <suite name="Suite" duration-ms="608075" started-at="2021-11-10T19:09:53 IST" finished-at="2021-11-10T19:20:01 IST">
     <groups>
     </groups>
-    <test name="Com Avlon App Test Cases" duration-ms="177577" started-at="2021-10-16T21:48:10 IST" finished-at="2021-10-16T21:51:08 IST">
-      <class name="com.avlon.testcases.StarterStagePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.avlon.testcases.StarterStagePageTest@69a3d1d]" name="setUp" is-config="true" duration-ms="143372" started-at="2021-10-16T21:48:11 IST" finished-at="2021-10-16T21:50:34 IST">
+    <test name="Com Avlon App Test Cases" duration-ms="608075" started-at="2021-11-10T19:09:53 IST" finished-at="2021-11-10T19:20:01 IST">
+      <class name="com.avlon.testcases.ForumPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.avlon.testcases.ForumPageTest@5bcea91b]" name="setUp" is-config="true" duration-ms="89087" started-at="2021-11-10T19:11:54 IST" finished-at="2021-11-10T19:13:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="StarterStageCreation()[pri:1, instance:com.avlon.testcases.StarterStagePageTest@69a3d1d]" name="StarterStageCreation" duration-ms="32408" started-at="2021-10-16T21:50:34 IST" finished-at="2021-10-16T21:51:06 IST">
+        <test-method status="PASS" signature="ForumCreation()[pri:1, instance:com.avlon.testcases.ForumPageTest@5bcea91b]" name="ForumCreation" duration-ms="8573" started-at="2021-11-10T19:13:23 IST" finished-at="2021-11-10T19:13:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForumCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.avlon.testcases.ForumPageTest@5bcea91b]" name="tearDown" is-config="true" duration-ms="506" started-at="2021-11-10T19:13:31 IST" finished-at="2021-11-10T19:13:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.avlon.testcases.ForumPageTest -->
+      <class name="com.avlon.testcases.CalendarPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.avlon.testcases.CalendarPageTest@5f3a4b84]" name="setUp" is-config="true" duration-ms="91849" started-at="2021-11-10T19:13:32 IST" finished-at="2021-11-10T19:15:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalenderEventCreation()[pri:1, instance:com.avlon.testcases.CalendarPageTest@5f3a4b84]" name="CalenderEventCreation" duration-ms="14968" started-at="2021-11-10T19:15:04 IST" finished-at="2021-11-10T19:15:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalenderEventCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.avlon.testcases.CalendarPageTest@5f3a4b84]" name="tearDown" is-config="true" duration-ms="997" started-at="2021-11-10T19:15:19 IST" finished-at="2021-11-10T19:15:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.avlon.testcases.CalendarPageTest -->
+      <class name="com.avlon.testcases.StarterStagePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.avlon.testcases.StarterStagePageTest@670b40af]" name="setUp" is-config="true" duration-ms="125420" started-at="2021-11-10T19:17:25 IST" finished-at="2021-11-10T19:19:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="StarterStageCreation()[pri:1, instance:com.avlon.testcases.StarterStagePageTest@670b40af]" name="StarterStageCreation" duration-ms="29476" started-at="2021-11-10T19:19:31 IST" finished-at="2021-11-10T19:20:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StarterStageCreation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.avlon.testcases.StarterStagePageTest@69a3d1d]" name="tearDown" is-config="true" duration-ms="1679" started-at="2021-10-16T21:51:06 IST" finished-at="2021-10-16T21:51:08 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.avlon.testcases.StarterStagePageTest@670b40af]" name="tearDown" is-config="true" duration-ms="1282" started-at="2021-11-10T19:20:00 IST" finished-at="2021-11-10T19:20:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.avlon.testcases.StarterStagePageTest -->
+      <class name="com.avlon.testcases.SceneAndChannelCreationPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.avlon.testcases.SceneAndChannelCreationPageTest@27f723]" name="setUp" is-config="true" duration-ms="124963" started-at="2021-11-10T19:15:20 IST" finished-at="2021-11-10T19:17:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sceneAndChannelCreation()[pri:1, instance:com.avlon.testcases.SceneAndChannelCreationPageTest@27f723]" name="sceneAndChannelCreation" duration-ms="1" started-at="2021-11-10T19:17:24 IST" finished-at="2021-11-10T19:17:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sceneAndChannelCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.avlon.testcases.SceneAndChannelCreationPageTest@27f723]" name="tearDown" is-config="true" duration-ms="764" started-at="2021-11-10T19:17:25 IST" finished-at="2021-11-10T19:17:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.avlon.testcases.SceneAndChannelCreationPageTest -->
+      <class name="com.avlon.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.avlon.testcases.LoginPageTest@2a742aa2]" name="setUp" is-config="true" duration-ms="12997" started-at="2021-11-10T19:09:53 IST" finished-at="2021-11-10T19:10:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginValidEmail()[pri:1, instance:com.avlon.testcases.LoginPageTest@2a742aa2]" name="loginValidEmail" duration-ms="18084" started-at="2021-11-10T19:10:06 IST" finished-at="2021-11-10T19:10:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.avlon.testcases.LoginPageTest@2a742aa2]" name="tearDown" is-config="true" duration-ms="696" started-at="2021-11-10T19:10:24 IST" finished-at="2021-11-10T19:10:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.avlon.testcases.LoginPageTest -->
+      <class name="com.avlon.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.avlon.testcases.HomePageTest@12cdcf4]" name="setUp" is-config="true" duration-ms="33059" started-at="2021-11-10T19:10:25 IST" finished-at="2021-11-10T19:10:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageLoading()[pri:1, instance:com.avlon.testcases.HomePageTest@12cdcf4]" name="verifyHomePageLoading" duration-ms="54710" started-at="2021-11-10T19:10:58 IST" finished-at="2021-11-10T19:11:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoading -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.avlon.testcases.HomePageTest@12cdcf4]" name="tearDown" is-config="true" duration-ms="586" started-at="2021-11-10T19:11:53 IST" finished-at="2021-11-10T19:11:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.avlon.testcases.HomePageTest -->
     </test> <!-- Com Avlon App Test Cases -->
   </suite> <!-- Suite -->
 </testng-results>

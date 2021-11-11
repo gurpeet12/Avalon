@@ -45,6 +45,7 @@ public class HomePage extends TestBase{
 	MobileElement create_starter_stage;
 	
 	public boolean is_Scene_Created=true;
+	public boolean is_visible_will_do_later=false;
 
 	//Initializing the Page Objects:
 	public HomePage() {
@@ -54,11 +55,15 @@ public class HomePage extends TestBase{
 	//Actions:
 	
 	//new
-	public void homePageLoading()throws InterruptedException{
+	public void homePageLoading(boolean isVisibleWillDoLater)throws InterruptedException{
 		Thread.sleep(20000);
 		swipe_image.click();
 		gotit.click();		
-		will_do_later.click();
+		if(isVisibleWillDoLater)
+		{
+			
+			will_do_later.click();
+		}
 	}
 	
 	//go to home side menu

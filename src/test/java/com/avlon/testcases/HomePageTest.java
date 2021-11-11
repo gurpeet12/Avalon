@@ -32,7 +32,7 @@ public class HomePageTest extends TestBase{
 	@Test(priority=1)
 	public void verifyHomePageLoading() throws InterruptedException{
 		
-		homePage.homePageLoading();
+		homePage.homePageLoading(false);
 	}
 	
 	

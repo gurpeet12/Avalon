@@ -24,7 +24,7 @@ public class CalendarPageTest extends TestBase{
 		loginPage = new LoginPage();
 		calendarPage=new CalendarPage();
 		homePage = loginPage.login("mt1@avalonmeta.com","pass1234");
-		homePage.homePageLoading();
+		homePage.homePageLoading(false);
 		homePage.goToHomeSideMenu();
 		calendarPage=homePage.goToCalendarPage();
 	}
